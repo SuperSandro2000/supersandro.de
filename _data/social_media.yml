@@ -62,6 +62,11 @@ telegram:
   share_url_prefix: https://telegram.me/share/url?url=
   icon_svg: '<svg height="20" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.9434 1.52996L16.9243 15.7574C16.7018 16.7662 16.1009 17.011 15.2627 16.5362L10.6637 13.1463L8.44574 15.2826C8.20095 15.5274 7.99325 15.7351 7.51851 15.7351L7.84489 11.0545L16.368 3.35475C16.7389 3.02836 16.2864 2.84292 15.7968 3.1693L5.26349 9.80084L0.723777 8.38403C-0.262794 8.07249 -0.285048 7.39746 0.931477 6.92272L18.6675 0.0834836C19.4909 -0.21323 20.2104 0.283765 19.9434 1.52996Z" fill="#959DA5"/></svg>'
 
+twitch:
+  name: Twitch
+  profile_url_prefix: https://twitch.tv/
+  icon_svg: '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 2400 2800"><g><path d="M500,0L0,500v1800h600v500l500-500h400l900-900V0H500z M2200,1300l-400,400h-400l-350,350v-350H600V200h1600 V1300z" fill="#959DA5"/><path d="M1700 550H1900V1150H1700zM1150 550H1350V1150H1150z" fill="#959DA5"/></g></svg>'
+
 twitter:
   name: Twitter
   profile_url_prefix: https://twitter.com/
