@@ -51,5 +51,6 @@
 	</script>
 	<noscript><p><img src="https://matomo.supersandro.de/matomo.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p></noscript>
 	<!-- End Matomo Code -->
+    {% if site.enable_rss %}{% feed_meta %}{% endif %}
   </head>
   <body class="bg-white min-height-full" {% if site.style == 'dark' %}style="background-color: #2f363d !important"{% endif %}>

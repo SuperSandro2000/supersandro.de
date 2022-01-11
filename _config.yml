@@ -3,6 +3,11 @@ style: dark
 
 plugins:
   - jekyll-octicons
+  - jekyll-feed
+
+# The GitHub username to use is determined from your Git remotes. If you want to override it, set it below.
+# more info here https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration
+repository: supersandro2000/supersandro2000.github.io
 
 exclude:
   - default.conf
@@ -34,7 +39,6 @@ url: "https://supersandro.de"
 baseurl: ""
 permalink: /:year/:month/:day/:title/
 
-repository: supersandro2000/supersandro2000.github.io
 email: sandro.jaeckel@posteo.de
 pgp_key_id: "0x236b6291555e8401"
 
@@ -106,3 +110,8 @@ topics:
   - name: Ubuntu
     web_url: https://github.com/topics/ubuntu
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/ubuntu/ubuntu.png
+
+# rss feed config
+enable_rss: true
+title: Sandro's Website
+# description: Welcome to my blog!
