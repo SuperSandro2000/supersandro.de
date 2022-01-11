@@ -66,7 +66,7 @@ social_media:
   # instagram: your_username
   # keybase: your_username
   # linkedin: your_username
-  mastodon: "@sandro"
+  # mastodon: "@sandro"
   # medium: your_username
   stackoverflow: 4446318
   steam: supersandro2000
@@ -74,8 +74,8 @@ social_media:
   twitter: supersandro2000
   # unsplash: your_username
   # vk: your_username
-  website: https://supersandro.de/
-  youtube: supersand2000
+  # website: https://supersandro.de/
+  # youtube: supersand2000
 
 topics:
   - name: Linux
