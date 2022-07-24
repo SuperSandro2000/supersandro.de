@@ -2,11 +2,7 @@ with import <nixpkgs> { };
 let
   jekyll_env = bundlerEnv rec {
     name = "jekyll";
-    # ruby = ruby_2;
     gemdir = ./.;
-    # gemfile = ./Gemfile;
-    # lockfile = ./Gemfile.lock;
-    # gemset = ./gemset.nix;
     gemConfig = pkgs.defaultGemConfig // {
       github-pages = attrs: {
         postInstall = ''
@@ -22,13 +18,16 @@ stdenv.mkDerivation {
   name = "supersandro.de";
   src = ./.;
 
-  nativeBuildInputs = [ jekyll gnumake gnused ];
-  buildInputs = [ jekyll gnumake gnused ];
+  nativeBuildInputs = [
+    jekyll_env
+  ];
+
+  __impure = true;
 
   buildPhase = ''
     export JEKYLL_ENV=production
     export LC_ALL=C.UTF-8 LANG=en_US.UTF-8 LANGUAGE=en_US.UTF-8
-    jekyll build --trace
+    bundle exec jekyll build --trace
   '';
 
   installPhase = ''
