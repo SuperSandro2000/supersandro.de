@@ -56,7 +56,8 @@ module Jekyll
       # Raise some exceptions before we start expensive processing
       raise "Image Tag can't find the \"#{markup[:preset]}\" preset. Check image: presets in _config.yml for a list of presets." unless preset || markup[:preset].nil?
 
-      if ['http', 'https'].include?(URI.parse(instance[:src]).scheme)
+      # disable as long as weserv.supersandro.de is down
+      if ['http', 'https'].include?(URI.parse(instance[:src]).scheme) && false
         img_url = "https://weserv.supersandro.de/?url=#{instance[:src]}&w=#{html_attr['width']}&h=#{html_attr['height']}&output=webp&q=100"
         img_file = "#{File.basename(instance[:src], '.*').split('?')[0]}.webp"
         img_dir_rel = File.join('assets', 'img')
