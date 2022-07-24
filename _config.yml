@@ -37,7 +37,7 @@ sass:
 
 url: "https://supersandro.de"
 baseurl: ""
-permalink: /:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title
 
 email: sandro.jaeckel@posteo.de
 pgp_key_id: "0x236b6291555e8401"
