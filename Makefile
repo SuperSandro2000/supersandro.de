@@ -50,4 +50,4 @@ Gemfile.lock: Gemfile
 		bundler lock
 
 gemset.nix: Gemfile Gemfile.lock
-		$(shell $$(nix-build '<nixpkgs>' -A bundix --no-out-link)/bin/bundix)
+		bundix
