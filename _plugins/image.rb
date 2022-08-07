@@ -78,7 +78,7 @@ module Jekyll
 
         "<img src=\"\/#{File.join(img_dir_rel, img_file)}?#{digest}\" #{html_attr_string}>"
       else
-        "<img src=\"\/#{instance[:src]}\" #{html_attr_string}>"
+        "<img src=\"#{instance[:src]}\" #{html_attr_string}>"
       end
     end
   end
