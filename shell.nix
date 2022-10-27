@@ -5,6 +5,7 @@ with pkgs;
 mkShell {
   nativeBuildInputs = [
     bundix
+    nodejs
     ruby
   ];
 }
