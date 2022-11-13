@@ -5,6 +5,7 @@ plugins:
   - jekyll-feed
   - jekyll-octicons
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 # The GitHub username to use is determined from your Git remotes. If you want to override it, set it below.
 # more info here https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration
