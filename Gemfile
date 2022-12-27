@@ -7,4 +7,4 @@ group :jekyll_plugins do
   gem 'jekyll-seo-tag'
 end
 
-gem "down", "~> 5.3"
+gem "down", "~> 5.4"
