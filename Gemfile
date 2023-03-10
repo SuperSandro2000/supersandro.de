@@ -6,5 +6,3 @@ group :jekyll_plugins do
   gem 'jekyll-purgecss'
   gem 'jekyll-seo-tag'
 end
-
-gem "down", "~> 5.4"
