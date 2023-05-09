@@ -27,6 +27,7 @@ exclude:
   - package-lock.json
   - purgecss.config.js
   - README.md
+  - shell.nix
   - vendor
 include:
   - .htacces
