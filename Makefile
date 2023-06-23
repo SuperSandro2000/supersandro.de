@@ -2,8 +2,6 @@
 MAKEFLAGS=--warn-undefined-variables
 SHELL := bash
 
-SUDO ?= $(shell if ! groups | grep -q docker; then echo 'sudo --preserve-env=DOCKER_BUILDKIT,JEKYLL_GITHUB_TOKEN'; fi)
-
 .PHONY: primer
 primer:
 	wget https://cdnjs.cloudflare.com/ajax/libs/Primer/14.3.0/primer.min.css -O _sass/_build.scss

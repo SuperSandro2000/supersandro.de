@@ -12,7 +12,6 @@ plugins:
 repository: supersandro2000/supersandro2000.github.io
 
 exclude:
-  - default.conf
   - default.nix
   - CNAME
   - dev.Dockerfile
