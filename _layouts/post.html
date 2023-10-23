@@ -1,6 +1,7 @@
 {% include header.html %}
 
 {% capture post_body %}
+  {% comment %}
   {% if site.social_media %}
     {% assign shareable_social_media = '' | split: ',' %}
 
@@ -30,6 +31,7 @@
       </div>
     {% endif %}
   {% endif %}
+  {% endcomment %}
   <div class="article">
     {{ content }}
   </div>
