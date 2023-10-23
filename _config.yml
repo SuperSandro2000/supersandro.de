@@ -62,7 +62,7 @@ projects:
 
 thoughts:
   exclude:
-    - "Privacy Policy"
+    - "Datenschutzerklärung"
 
 social_media:
   # behance: your_username
