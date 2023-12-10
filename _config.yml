@@ -41,7 +41,7 @@ url: "https://supersandro.de"
 baseurl: ""
 permalink: /:year/:month/:day/:title
 
-email: sandro.jaeckel@posteo.de
+email: sandro@supersandro.de
 pgp_key_id: "0x236b6291555e8401"
 
 defaults:
