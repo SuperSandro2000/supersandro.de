@@ -7,7 +7,7 @@ mkShell {
     bundix
     gcc
     nodejs
-    ruby_3_0
+    ruby
   ];
   buildInputs = [
     libffi
