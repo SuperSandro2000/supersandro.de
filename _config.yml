@@ -53,11 +53,12 @@ defaults:
 
 projects:
   sort_by: stars
-  limit: 11
+  limit: 10
   exclude:
     archived: true
     forks: true
     projects:
+    - nixpkgs
     - supersandro2000.github.io-old
 
 thoughts:
