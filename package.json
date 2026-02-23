@@ -4,7 +4,7 @@
   "description": "",
   "main": "",
   "dependencies": {
-    "purgecss": "^7.0.2"
+    "purgecss": "^8.0.0"
   },
   "devDependencies": {},
   "scripts": {
