@@ -9,7 +9,7 @@ plugins:
 
 # The GitHub username to use is determined from your Git remotes. If you want to override it, set it below.
 # more info here https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration
-repository: supersandro2000/supersandro2000.github.io
+repository: supersandro2000/supersandro2000.de
 
 exclude:
   - default.nix
