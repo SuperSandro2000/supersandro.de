@@ -35,7 +35,7 @@ include:
 
 css_dir: assets/css
 sass:
-   sourcemap: never
+  sourcemap: never
 
 url: "https://supersandro.de"
 baseurl: ""
